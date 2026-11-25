@@ -10,17 +10,6 @@ sys.path.insert(0, os.path.join(base_dir, "readers"))
 
 from readers.Fastq_project import FastqReader
 
-BG_MAIN = "#F0F4F8"       
-BG_CARD = "#FFFFFF"       
-ACCENT = "#2563EB"        
-ACCENT_HOVER = "#1D4ED8" 
-TEXT_DARK = "#1E293B"     
-TEXT_MUTED = "#64748B"    
-BORDER_COLOR = "#CBD5E1"  
-
-FONT_TITLE = ("Ubuntu", 18, "bold")
-FONT_BTN = ("Ubuntu", 11, "bold")
-FONT_STATS = ("Ubuntu", 11)
 def run_fastq_gui():
     root = tk.Tk()
     root.title("Урезанный FastQC")
@@ -68,7 +57,7 @@ def run_fastq_gui():
 
     image_label = tk.Label(root)
     image_label.pack(expand=True)
-    
+
     def on_closing():
         root.destroy()
         os._exit(0)
