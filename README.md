@@ -15,8 +15,7 @@
 Откройте терминал (`Ctrl + Alt + T`) и клонируйте репозиторий:
 
 ```bash
-git clone https://github.com
-cd -26.11.26
+git clone https://github.com/ludkiewicz07/-26.11.26.git
 ```
 
 ### 2. Активация окружения Miniconda
