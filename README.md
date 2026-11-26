@@ -47,7 +47,7 @@ python3 patiens.py
 
 1. **Установите необходимые библиотеки** (если ещё не установлены):
    ```bash
-   pip install matplotlib seaborn pandas pillow
+   pip install matplotlib seaborn
    ```
    *(Если в системе отсутствует графическая библиотека `tkinter`, установите её командой: `sudo apt update && sudo apt install -y python3-tk`).*
 
